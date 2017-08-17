@@ -1,4 +1,4 @@
-#Json JDBC based map store for Hazelcast
+# Json JDBC based map store for Hazelcast
 
 Can be used to persist a Hazelcast <String, Serializable> map into a SQL database. Serializing the objects to Json.
 The intended use is to store only simple serializable objects (think of Strings, Integers and small shallow classes).
